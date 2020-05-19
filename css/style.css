@@ -23,3 +23,30 @@
     color: #093587;
     background-color:white;
 }
+.btn-b2{
+    background-color: transparent;
+    color:white;
+    border: white 3px solid;
+}
+.btn-b2:hover{
+    color: darkgreen;
+    background-color:white;
+    border: white 3px solid;
+}
+.bgsec2{
+    padding: 400px 0;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-image:url('../images/bg2.jpg');
+}
